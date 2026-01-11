@@ -93,37 +93,8 @@ export const PORTFOLIO_DATA: Project[] = [
             { type: 'image', url: u('images/easyflow/profile.png'), caption: 'Analytics Dashboard' }
         ]
     },
-    {
-        id: 'security-system',
-        category: 'engineering',
-        title: 'Pi Sentry',
-        subtitle: 'IoT Home Security',
-        problemStatement: 'Commercial security systems are expensive and lack customizable data ownership.',
-        solution: 'Built a custom Raspberry Pi security node with motion detection, local storage, and real-time React dashboard.',
-        techStack: ['Python', 'Flask', 'React', 'Raspberry Pi', 'OpenCV'],
-        whatILearned: ['IoT hardware integration', 'Websocket real-time communication'],
-        githubUrl: 'https://github.com/codywong/pi-sentry',
-        heroMedia: {
-            type: 'image',
-            url: u('/videos/placeholder_security.png'),
-            caption: 'Dashboard View'
-        }
-    },
-    {
-        id: 'metro-controller',
-        category: 'engineering',
-        title: 'Metro Card Controller',
-        subtitle: 'Physical Computing Interface',
-        problemStatement: 'Wanted to explore Human-Computer Interaction (HCI) beyond standard mouse/keyboard inputs using everyday objects.',
-        solution: 'Developed a computer vision system that tracks the specific green hue of a Metro Card. By moving the card physically, I controlled a digital dummy\'s movement on screen, translating real-world coordinates to virtual actions.',
-        techStack: ['Python', 'OpenCV', 'Color Thresholding'],
-        whatILearned: ['HSV Color Space Calibration', 'Real-time Object Tracking', 'HCI Design Patterns'],
-        heroMedia: {
-            type: 'video',
-            url: u('videos/metro_demo.mp4'),
-            caption: 'Green Card Tracking Demo'
-        }
-    },
+
+
     {
         id: 'crime-detection',
         category: 'engineering',
@@ -172,6 +143,8 @@ export const PORTFOLIO_DATA: Project[] = [
         },
         gallery: [
             { type: 'image', url: u('/papers/mic_setup.png'), caption: 'Hardware Setup' },
+            { type: 'image', url: u('/images/placeholders/graph1.png'), caption: 'Figure 1: Signal Strength Analysis' },
+            { type: 'image', url: u('/images/placeholders/graph2.png'), caption: 'Figure 2: Noise Cancellation Efficiency' },
             { type: 'pdf', url: u('/papers/project1.pdf'), caption: 'Full Paper (Preview)' }
         ]
     },
@@ -190,6 +163,7 @@ export const PORTFOLIO_DATA: Project[] = [
             caption: 'Agent Policy Simulation'
         },
         gallery: [
+            { type: 'image', url: u('/images/placeholders/graph3.png'), caption: 'Figure 1: Learning Curve Comparison' },
             { type: 'pdf', url: u('/papers/project2.pdf'), caption: 'Research Paper' }
         ]
     },
