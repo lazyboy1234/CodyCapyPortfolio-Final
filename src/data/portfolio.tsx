@@ -46,16 +46,51 @@ export const PORTFOLIO_DATA: Project[] = [
         whatILearned: ['ML Model Training (CreateML)', 'Real-time Camera Feed Processing', 'Voice Synthesis Integration'],
         githubUrl: 'https://github.com/codywong/wrestling-ai',
         heroMedia: {
-            type: 'image',
-            url: u('images/wrestling/banner_noebius.png'), // Using placeholder
-            caption: 'Real-time Dashboard',
-            rotation: 90
+            type: 'youtube',
+            url: 'https://www.youtube.com/embed/Bo9Q9qrlZng?start=3&end=167', // 3s to 2:47
+            caption: 'Project Overview & Demo'
         },
         gallery: [
             { type: 'image', url: u('images/wrestling/pose_lunges.png'), caption: 'Shot Detection (Real-Time)' },
             { type: 'image', url: u('images/wrestling/pose_kneel.png'), caption: 'Low Level Attack Recognition' },
-            // Video at the bottom as requested
-            { type: 'video', url: u('videos/wrestling_demo.mp4'), caption: 'Live Project Demo', rotation: 90 }
+            { type: 'image', url: u('images/wrestling/menu.png'), caption: 'App Interface', rotation: 90 }
+        ]
+    },
+    {
+        id: 'foot-print',
+        category: 'engineering',
+        title: 'Foot Print',
+        subtitle: 'Congressional App Challenge',
+        problemStatement: 'Tracking environmental impact is often difficult and unintuitive for the average user.',
+        solution: 'A mobile application designed to help users track and reduce their carbon footprint through daily activity logging and gamified goals.',
+        techStack: ['Mobile Development', 'API Integration', 'UI/UX Design'],
+        whatILearned: ['App Submission Process', 'User-Centric Design'],
+        heroMedia: {
+            type: 'youtube',
+            url: 'https://www.youtube.com/embed/Bo9Q9qrlZng?start=168&end=287', // 2:48 to 4:47
+            caption: 'Congressional App Submission Demo'
+        }
+    },
+    {
+        id: 'easy-flow',
+        category: 'engineering',
+        title: 'Easy Flow',
+        subtitle: 'Intelligent Productivity Suite',
+        problemStatement: 'Students struggle to balance fixed schedules (classes), variable tasks (study), and rest, leading to burnout.',
+        solution: 'Built a comprehensive iOS app that conducts a "Busy Period" survey, sets goals, and auto-schedules tasks around existing commitments. Includes a built-in Pomodoro timer for execution.',
+        techStack: ['Swift', 'SwiftUI', 'CoreData', 'Algorithms'],
+        whatILearned: ['Complex Scheduling Algorithms', 'iOS State Management', 'User Onboarding Flows'],
+        githubUrl: 'https://github.com/codywong/easy-flow',
+        heroMedia: {
+            type: 'youtube',
+            url: 'https://www.youtube.com/embed/Bo9Q9qrlZng?start=287&end=377', // 4:47 to 6:17
+            caption: 'Efficiency App Overview'
+        },
+        gallery: [
+            { type: 'image', url: u('images/easyflow/calendar.png'), caption: 'Calendar & Tasks' },
+            { type: 'image', url: u('images/easyflow/survey.png'), caption: 'Smart Onboarding' },
+            { type: 'image', url: u('images/easyflow/timer.png'), caption: 'Focus Timer' },
+            { type: 'image', url: u('images/easyflow/profile.png'), caption: 'Analytics Dashboard' }
         ]
     },
     {
@@ -73,28 +108,6 @@ export const PORTFOLIO_DATA: Project[] = [
             url: u('/videos/placeholder_security.png'),
             caption: 'Dashboard View'
         }
-    },
-    {
-        id: 'easy-flow',
-        category: 'engineering',
-        title: 'Easy Flow',
-        subtitle: 'Intelligent Productivity Suite',
-        problemStatement: 'Students struggle to balance fixed schedules (classes), variable tasks (study), and rest, leading to burnout.',
-        solution: 'Built a comprehensive iOS app that conducts a "Busy Period" survey, sets goals, and auto-schedules tasks around existing commitments. Includes a built-in Pomodoro timer for execution.',
-        techStack: ['Swift', 'SwiftUI', 'CoreData', 'Algorithms'],
-        whatILearned: ['Complex Scheduling Algorithms', 'iOS State Management', 'User Onboarding Flows'],
-        githubUrl: 'https://github.com/codywong/easy-flow',
-        heroMedia: {
-            type: 'youtube',
-            url: 'https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1&mute=1', // Auto-roll
-            caption: 'App Demo (External Host)'
-        },
-        gallery: [
-            { type: 'image', url: u('images/easyflow/calendar.png'), caption: 'Calendar & Tasks' },
-            { type: 'image', url: u('images/easyflow/survey.png'), caption: 'Smart Onboarding' },
-            { type: 'image', url: u('images/easyflow/timer.png'), caption: 'Focus Timer' },
-            { type: 'image', url: u('images/easyflow/profile.png'), caption: 'Analytics Dashboard' }
-        ]
     },
     {
         id: 'metro-controller',
@@ -175,9 +188,9 @@ export const PORTFOLIO_DATA: Project[] = [
         techStack: ['Python', 'DeepLabCut', 'TensorFlow'],
         githubUrl: 'https://github.com/codywong/mouse-tracking',
         heroMedia: {
-            type: 'video',
-            url: u('/videos/mouse_tracking.mp4'),
-            caption: 'Tracking Output'
+            type: 'youtube',
+            url: 'https://www.youtube.com/embed/Bo9Q9qrlZng?start=378', // 6:18 to end
+            caption: 'Tracking Output (YouTube)'
         },
         gallery: [
             { type: 'image', url: u('/papers/mouse_heatmap.png'), caption: 'Movement Heatmap' },
