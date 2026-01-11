@@ -12,7 +12,7 @@ export const SecurePdfViewer: React.FC<SecurePdfViewerProps> = ({ fileUrl }) => 
                 {/* Watermarks removed as they obstruct native viewer */}
             </div>
             <iframe
-                src={`${fileUrl}#toolbar=0&navpanes=0&scrollbar=0`}
+                src={`${fileUrl}#toolbar=0&navpanes=0&scrollbar=0&view=FitH`}
                 className={styles.document}
                 title="PDF Viewer"
                 width="100%"

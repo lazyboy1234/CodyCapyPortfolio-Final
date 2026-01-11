@@ -143,8 +143,6 @@ export const PORTFOLIO_DATA: Project[] = [
         },
         gallery: [
             { type: 'image', url: u('/papers/mic_setup.png'), caption: 'Hardware Setup' },
-            { type: 'image', url: u('/images/placeholders/graph1.png'), caption: 'Figure 1: Signal Strength Analysis' },
-            { type: 'image', url: u('/images/placeholders/graph2.png'), caption: 'Figure 2: Noise Cancellation Efficiency' },
             { type: 'pdf', url: u('/papers/project1.pdf'), caption: 'Full Paper (Preview)' }
         ]
     },
@@ -163,7 +161,6 @@ export const PORTFOLIO_DATA: Project[] = [
             caption: 'Agent Policy Simulation'
         },
         gallery: [
-            { type: 'image', url: u('/images/placeholders/graph3.png'), caption: 'Figure 1: Learning Curve Comparison' },
             { type: 'pdf', url: u('/papers/project2.pdf'), caption: 'Research Paper' }
         ]
     },
